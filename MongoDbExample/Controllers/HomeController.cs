@@ -17,6 +17,7 @@ namespace MongoDbExample.Controllers
         public async Task<ActionResult<IEnumerable<Student>>> Index()
         {
             var students = await _studentService.GetAllAsync();
+            var studentName = "Nguyen Trong Phuong";
             return Ok(students);
         }
     }
