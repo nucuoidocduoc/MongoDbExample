@@ -19,6 +19,7 @@ namespace MongoDbExample.Controllers
             var students = await _studentService.GetAllAsync();
             var studentName = "Nguyen Trong Phuong";
             var studentName1 = "Nguyen Trong Phuong1";
+            var studentName2 = "Nguyen Trong Phuong2";
             return Ok(students);
         }
     }
