@@ -14,6 +14,7 @@ namespace MongoDbExample
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            int a = 0;
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

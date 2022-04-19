@@ -25,6 +25,7 @@ namespace MongoDbExample
             services.AddScoped<StudentService>();
             services.AddScoped<CourseService>();
             services.AddControllers();
+            services.AddAuthentication();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
